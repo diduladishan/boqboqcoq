@@ -18,6 +18,9 @@ import ourNfts04 from "../../assets/our nfts/mint04.png";
 import ourNfts05 from "../../assets/our nfts/mint05.png";
 import ourNfts06 from "../../assets/our nfts/mint06.png";
 
+import joinWithUsTwitter from "../../assets/join with us/twitter.png";
+import joinWithUsDiscode from "../../assets/join with us/discode.png";
+
 import ICON from "../../assets/icon.png";
 import ICON2 from "../../assets/icon2.png";
 import { Button } from "@material-tailwind/react";
@@ -28,7 +31,7 @@ function index() {
     // <div className="container mx-auto">
     <div className="">
       <div className="bg-gradient-to-r from-[#B9F9C6] via-[#F8E7A9] to-[#f5c1be]">
-        <section className="bg-gradient-to-r from-[#B9F9C6] via-[#F8E7A9] to-[#f5c1be]">
+        <section className="">
           <p className="text-[65px] text-[#EB5A5D] text-center mb-4">
             BOQ BOQ COQ
           </p>
@@ -118,137 +121,219 @@ function index() {
         </div>
       </div>
 
+      <div className="bg-[#c2f1ff]">
+        <div className="container mx-auto pt-[300px]">
+          <section className="bg-[#6388B8] rounded-3xl  py-16 shadow-lg shadow-black">
+            <p className="text-[65px] text-[#DCF4FF] text-center ">OUR TEAM</p>
+            <div className="flex items-center justify-center gap-6">
+              <img
+                src={chicken01}
+                alt="aad"
+                className="w-[390px] object-scale-down "
+              />
+              <img
+                src={chicken02}
+                alt="aad"
+                className="w-[300px] object-scale-down "
+              />
+              <img
+                src={chicken03}
+                alt="aad"
+                className="w-[300px] object-scale-down "
+              />
+            </div>
+          </section>
+        </div>
+
+        <div>
+          <section>
+            <div className="flex items-center justify-center">
+              <div>
+                <p className="text-[50px] text-[#383838]">NAME 01</p>
+                <p className="text-[#383838] w-[300px]">
+                  Welcome to [Your Website Name]! We're here to [briefly Sign
+                  up/Discover/Explore now!]"
+                </p>
+              </div>
+
+              <img
+                src={naming01}
+                alt="naming chicken 01"
+                className="w-[300px] transform scale-x-[-1] object-scale-down "
+              />
+            </div>
+
+            <div className="flex items-center justify-center">
+              <img
+                src={naming02}
+                alt="naming chicken 02"
+                className="w-[300px] object-scale-down "
+              />
+
+              <div>
+                <p className="text-[50px] text-[#571857] text-right">NAME 02</p>
+                <p className="text-[#571857] text-right w-[300px]">
+                  Welcome to [Your Website Name]! We're here to [briefly Sign
+                  up/Discover/Explore now!]"
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <div>
+                <p className="text-[50px] text-[#674629]">NAME 01</p>
+                <p className="text-[#674629] w-[300px]">
+                  Welcome to [Your Website Name]! We're here to [briefly Sign
+                  up/Discover/Explore now!]"
+                </p>
+              </div>
+
+              <img
+                src={naming03}
+                alt="naming chicken 03"
+                className="w-[300px] object-scale-down transform scale-x-[-1]"
+              />
+            </div>
+          </section>
+        </div>
+      </div>
+
       <div className="container mx-auto">
-        <section className="bg-[#6388B8] rounded-3xl mt-[300px] py-16 shadow-lg shadow-black">
-          <p className="text-[65px] text-[#DCF4FF] text-center">OUR TEAM</p>
-          <div className="flex items-center justify-center gap-6">
-            <img
-              src={chicken01}
-              alt="aad"
-              className="w-[390px] object-scale-down "
-            />
-            <img
-              src={chicken02}
-              alt="aad"
-              className="w-[300px] object-scale-down "
-            />
-            <img
-              src={chicken03}
-              alt="aad"
-              className="w-[300px] object-scale-down "
-            />
+        <section className="bg-[#fff] drop-shadow-xl py-16">
+          <p className="text-[65px] text-[#002C48] text-center mb-4">
+            OUR NFTS
+          </p>
+          <div className="grid grid-cols-2 gap-x-32 gap-y-16 mb-10">
+            <div className="justify-self-end">
+              <img
+                src={ourNfts01}
+                alt="naming chicken 03"
+                className="w-[300px] object-scale-down"
+              />
+            </div>
+
+            <div className="justify-self-start">
+              <img
+                src={ourNfts02}
+                alt="naming chicken 03"
+                className="w-[300px] object-scale-down"
+              />
+            </div>
+
+            <div className="justify-self-end">
+              <img
+                src={ourNfts03}
+                alt="naming chicken 03"
+                className="w-[300px] object-scale-down"
+              />
+            </div>
+
+            <div className="justify-self-start">
+              <img
+                src={ourNfts04}
+                alt="naming chicken 03"
+                className="w-[300px] object-scale-down"
+              />
+            </div>
+
+            <div className="justify-self-end">
+              <img
+                src={ourNfts05}
+                alt="naming chicken 03"
+                className="w-[300px] object-scale-down"
+              />
+            </div>
+
+            <div className="justify-self-start">
+              <img
+                src={ourNfts06}
+                alt="naming chicken 03"
+                className="w-[300px] object-scale-down"
+              />
+            </div>
+          </div>
+
+          <div className="bg-[#002C48] rounded-full">
+            <p className="text-[#fff] text-[30px] text-center">More NFTs </p>
           </div>
         </section>
       </div>
 
-      <div>
-        <section>
-          <div className="flex items-center justify-center">
-            <div>
-              <p className="text-[50px] text-[#383838]">NAME 01</p>
-              <p className="text-[#383838] w-[300px]">
-                Welcome to [Your Website Name]! We're here to [briefly Sign
-                up/Discover/Explore now!]"
-              </p>
+      <div className="bg-[#F3A4CD] py-[100px]">
+        <div className="container mx-auto bg-[#fff] py-[70px] rounded-3xl drop-shadow-xl">
+          <section className="">
+            <p className="text-[#002C48] text-[50px] text-center">
+              JOIN WITH US
+            </p>
+            <p className="text-[#002C48] text-center">
+              Welcome to [Your Website Name]! We're here to [briefly Sign
+              up/Discover/Explore now!]"
+            </p>
+
+            {/* <div className="grid grid-cols-2 gap-4">
+              <div>
+                <img
+                  src={joinWithUsTwitter}
+                  alt="naming chicken 03"
+                  className="w-[450px] object-scale-down"
+                />
+              </div>
+              <div>
+                <p className="bg-[#FDDF7C] text-center px-8 py-2 w-max rounded-full drop-shadow-lg">
+                  Twitter
+                </p>
+              </div>
+
+              <div>
+                <p className="bg-[#FE7A2B]  text-center px-8 py-2 w-max rounded-full drop-shadow-lg">
+                  Discode
+                </p>
+              </div>
+
+              <div>
+                <img
+                  src={joinWithUsDiscode}
+                  alt="naming chicken 03"
+                  className="w-[450px] object-scale-down"
+                />
+              </div>
+            </div> */}
+
+            <div className="">
+              <div className="flex">
+                <div>
+                  <img
+                    src={joinWithUsTwitter}
+                    alt="naming chicken 03"
+                    className="w-[450px] object-scale-down"
+                  />
+                </div>
+                <div>
+                  <p className="bg-[#FDDF7C] text-center px-8 py-2 w-max rounded-full drop-shadow-lg">
+                    Twitter
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex">
+                <div>
+                  <p className="bg-[#FE7A2B]  text-center px-8 py-2 w-max rounded-full drop-shadow-lg">
+                    Discode
+                  </p>
+                </div>
+
+                <div>
+                  <img
+                    src={joinWithUsDiscode}
+                    alt="naming chicken 03"
+                    className="w-[450px] object-scale-down"
+                  />
+                </div>
+              </div>
             </div>
-
-            <img
-              src={naming01}
-              alt="naming chicken 01"
-              className="w-[300px] transform scale-x-[-1] object-scale-down "
-            />
-          </div>
-
-          <div className="flex items-center justify-center">
-            <img
-              src={naming02}
-              alt="naming chicken 02"
-              className="w-[300px] object-scale-down "
-            />
-
-            <div>
-              <p className="text-[50px] text-[#571857] text-right">NAME 02</p>
-              <p className="text-[#571857] text-right w-[300px]">
-                Welcome to [Your Website Name]! We're here to [briefly Sign
-                up/Discover/Explore now!]"
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-center justify-center">
-            <div>
-              <p className="text-[50px] text-[#674629]">NAME 01</p>
-              <p className="text-[#674629] w-[300px]">
-                Welcome to [Your Website Name]! We're here to [briefly Sign
-                up/Discover/Explore now!]"
-              </p>
-            </div>
-
-            <img
-              src={naming03}
-              alt="naming chicken 03"
-              className="w-[300px] object-scale-down transform scale-x-[-1]"
-            />
-          </div>
-        </section>
+          </section>
+        </div>
       </div>
-
-      <section>
-        <p className="text-[65px] text-[#002C48] text-center mb-4">OUR NFTS</p>
-        <div className="grid grid-cols-2 gap-x-32 gap-y-16 mb-10">
-          <div className="justify-self-end">
-            <img
-              src={ourNfts01}
-              alt="naming chicken 03"
-              className="w-[300px] object-scale-down"
-            />
-          </div>
-
-          <div className="justify-self-start">
-            <img
-              src={ourNfts02}
-              alt="naming chicken 03"
-              className="w-[300px] object-scale-down"
-            />
-          </div>
-
-          <div className="justify-self-end">
-            <img
-              src={ourNfts03}
-              alt="naming chicken 03"
-              className="w-[300px] object-scale-down"
-            />
-          </div>
-
-          <div className="justify-self-start">
-            <img
-              src={ourNfts04}
-              alt="naming chicken 03"
-              className="w-[300px] object-scale-down"
-            />
-          </div>
-
-          <div className="justify-self-end">
-            <img
-              src={ourNfts05}
-              alt="naming chicken 03"
-              className="w-[300px] object-scale-down"
-            />
-          </div>
-
-          <div className="justify-self-start">
-            <img
-              src={ourNfts06}
-              alt="naming chicken 03"
-              className="w-[300px] object-scale-down"
-            />
-          </div>
-        </div>
-
-        <div className="bg-[#002C48] rounded-full">
-          <p className="text-[#fff] text-[30px] text-center">More NFTs </p>
-        </div>
-      </section>
     </div>
   );
 }
