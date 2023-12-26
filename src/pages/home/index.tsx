@@ -21,6 +21,8 @@ import ourNfts06 from "../../assets/our nfts/mint06.png";
 import joinWithUsTwitter from "../../assets/join with us/twitter.png";
 import joinWithUsDiscode from "../../assets/join with us/discode.png";
 
+import footerTop from "../../assets/footer/footer-top.png";
+
 import ICON from "../../assets/icon.png";
 import ICON2 from "../../assets/icon2.png";
 import { Button } from "@material-tailwind/react";
@@ -179,7 +181,7 @@ function index() {
               </div>
             </div>
 
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center pb-[150px]">
               <div>
                 <p className="text-[50px] text-[#674629]">NAME 01</p>
                 <p className="text-[#674629] w-[300px]">
@@ -198,12 +200,13 @@ function index() {
         </div>
       </div>
 
-      <div className="container mx-auto">
-        <section className="bg-[#fff] drop-shadow-xl py-16">
+      {/* <div className="container mx-auto mt-[-100px] "> */}
+      <div className="container mx-auto  mt-[-100px] mb-[-100px]">
+        <section className="bg-[#fff] drop-shadow-xl py-16 rounded-3xl">
           <p className="text-[65px] text-[#002C48] text-center mb-4">
             OUR NFTS
           </p>
-          <div className="grid grid-cols-2 gap-x-32 gap-y-16 mb-10">
+          <div className="grid grid-cols-2 gap-x-32 gap-y-16 mb-12">
             <div className="justify-self-end">
               <img
                 src={ourNfts01}
@@ -253,13 +256,15 @@ function index() {
             </div>
           </div>
 
-          <div className="bg-[#002C48] rounded-full">
-            <p className="text-[#fff] text-[30px] text-center">More NFTs </p>
+          <div className="flex items-center justify-center">
+            <p className="text-[#fff] text-[30px] text-center w-[800px] bg-[#002C48] rounded-full ">
+              More NFTs{" "}
+            </p>
           </div>
         </section>
       </div>
 
-      <div className="bg-[#F3A4CD] py-[100px]">
+      <div className="bg-[#F3A4CD] pt-[200px]">
         <div className="container mx-auto bg-[#fff] py-[70px] rounded-3xl drop-shadow-xl">
           <section className="">
             <p className="text-[#002C48] text-[50px] text-center">
@@ -300,7 +305,7 @@ function index() {
             </div> */}
 
             <div className="">
-              <div className="flex">
+              <div className="flex justify-center gap-6 items-center">
                 <div>
                   <img
                     src={joinWithUsTwitter}
@@ -315,7 +320,7 @@ function index() {
                 </div>
               </div>
 
-              <div className="flex">
+              <div className="flex justify-center gap-6 items-center">
                 <div>
                   <p className="bg-[#FE7A2B]  text-center px-8 py-2 w-max rounded-full drop-shadow-lg">
                     Discode
@@ -333,7 +338,40 @@ function index() {
             </div>
           </section>
         </div>
+
+        <div className="flex justify-center">
+          <img
+            src={footerTop}
+            alt="naming chicken 03"
+            className="w-[450px] object-scale-down"
+          />
+        </div>
       </div>
+      <section className="bg-[#EB5A5D]">
+        <p className="text-[45px] text-center mb-4 pt-10">FOOTER</p>
+        <p className="text-[20px] text-center mb-6 px-16">
+          Welcome to [Your Website Name]! We're here to [briefly Sign
+          up/Discover/Explore now!]" Welcome to [Your Website Name]! We're here
+          to [briefly Sign up/Discover/Explore now!]"Welcome to [Your Website
+          Name]! Wefly Sign up/Discover/Explore now!]"Welcome to [Your Wte
+          Name]! We're here to [briefly Sign up/Discover/Explore now!]"
+        </p>
+
+        <div className="flex items-center justify-center gap-12 mb-8">
+          <img src={logo} alt="logo" className="w-[50px] object-scale-down" />
+          <img src={logo} alt="logo" className="w-[50px] object-scale-down" />
+          <img src={logo} alt="logo" className="w-[50px] object-scale-down" />
+          <img src={logo} alt="logo" className="w-[50px] object-scale-down" />
+          <img src={logo} alt="logo" className="w-[50px] object-scale-down" />
+          <img src={logo} alt="logo" className="w-[50px] object-scale-down" />
+        </div>
+
+        <div className="flex items-center justify-center pb-16">
+          <p className="bg-[#fff] text-[25px] text-[#EB5A5D] text-center w-[700px] py-1 rounded-full drop-shadow-lg">
+            SUBSCRIBE
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
